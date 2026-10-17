@@ -83,7 +83,7 @@
 
   const role = document.querySelector("[data-role-rotator]");
   if (role && !reducedMotion) {
-    const roles = ["Virtual Assistant", "Customer Support", "Appointment Setter", "Social Media Support"];
+    const roles = ["Virtual Assistant"];
     let index = 0;
     window.setInterval(() => {
       role.classList.add("is-changing");
